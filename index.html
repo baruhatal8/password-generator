@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500;700;800&family=Sora:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Password generator</title>
+</head>
+
+<body>
+    <section id="wrap">
+        <h1 id="header">Generate a <br /><span id="green">random password</span></h1>
+        <p id="sub">Never use an insecure password again.</p>
+        <br class="set">
+
+        <h4>Set your password:</h4>
+        <div id="line"></div>
+        <button class="num" onclick="symbol()">SYMBOLS</button>
+        <button class="num" onclick="char()">CHARACTERS</button>
+        <button class="num" onclick="charsy()">ALL</button>
+
+
+        </div>
+        <div id="line"></div>
+
+        <div class="nums">
+            <h4>Set length:</h4><br />
+            <button id="num-8" class="num" onclick="num_8()">8</button>
+            <button id="num-12" class="num" onclick="num_12()">12</button>
+            <button id="num-15" class="num" onclick="num_15()">15</button>`
+
+        </div>
+        <div id="line"></div>
+        <button id="generate" onclick="generator()">Generate passwords</button>
+        <div id="line"></div>
+        <div id="out">
+            <p id="output"></p>
+            <p id="outpuz" class="out2"></p>
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
